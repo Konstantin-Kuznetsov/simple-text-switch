@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initTextAlphaAnimatorSet() = AnimatorSet().animateTextAlpha(buttonText1, buttonText2, 200)
-    private fun initTextPaddingAnimatorSet() = AnimatorSet().animateTextPadding(buttonText1, buttonText2, 300)
+    private fun initTextPaddingAnimatorSet() = AnimatorSet().animateTextPadding(buttonText1, buttonText2, 200)
 
     private fun animatePadding() {
         if (!animateTextPadding.isRunning) {
